@@ -27,6 +27,8 @@ private slots:
 
     void on_addPlayer_clicked();
 
+    void on_addMoneyButton_clicked();
+
 private:
     Ui::Widget *ui;
     QGraphicsScene *scene;

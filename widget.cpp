@@ -66,3 +66,15 @@ void Widget::on_addPlayer_clicked()
         ui->addPlayer->setEnabled(false);
     }
 }
+
+void Widget::on_addMoneyButton_clicked()
+{
+    int moneyAmt = ui->addMoneyAmount->value();
+    int player = ui->playerAddMoney->currentIndex();
+
+    if(player == 0){
+        int moneyTotal = ui->plOneMoney->text().toInt() + moneyAmt;
+        QString money = QString::number(moneyTotal);
+        ui->plOneMoney->setText(money);
+    }
+}
