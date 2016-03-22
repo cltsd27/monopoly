@@ -29,6 +29,10 @@ private slots:
 
     void on_addMoneyButton_clicked();
 
+    void on_playerAddMoney_currentIndexChanged(int index);
+
+    void on_removeMoneyButton_clicked();
+
 private:
     Ui::Widget *ui;
     QGraphicsScene *scene;

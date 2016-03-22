@@ -86,7 +86,7 @@
     <rect>
      <x>890</x>
      <y>49</y>
-     <width>67</width>
+     <width>241</width>
      <height>31</height>
     </rect>
    </property>
@@ -99,7 +99,7 @@
     <rect>
      <x>890</x>
      <y>120</y>
-     <width>67</width>
+     <width>231</width>
      <height>31</height>
     </rect>
    </property>
@@ -112,7 +112,7 @@
     <rect>
      <x>890</x>
      <y>190</y>
-     <width>67</width>
+     <width>241</width>
      <height>31</height>
     </rect>
    </property>
@@ -125,7 +125,7 @@
     <rect>
      <x>890</x>
      <y>260</y>
-     <width>67</width>
+     <width>231</width>
      <height>31</height>
     </rect>
    </property>
@@ -151,7 +151,7 @@
     <rect>
      <x>850</x>
      <y>560</y>
-     <width>271</width>
+     <width>131</width>
      <height>31</height>
     </rect>
    </property>
@@ -239,7 +239,7 @@
     <rect>
      <x>890</x>
      <y>330</y>
-     <width>67</width>
+     <width>231</width>
      <height>31</height>
     </rect>
    </property>
@@ -265,7 +265,7 @@
     <rect>
      <x>890</x>
      <y>400</y>
-     <width>67</width>
+     <width>231</width>
      <height>31</height>
     </rect>
    </property>
@@ -284,6 +284,19 @@
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 6&lt;/p&gt;&lt;p&gt;Money:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="removeMoneyButton">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>560</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remove Guaps</string>
    </property>
   </widget>
  </widget>
