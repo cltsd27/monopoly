@@ -25,8 +25,20 @@ Widget::~Widget()
 
 void Widget::on_removePl_clicked()
 {
-    //if(ui->)
-    ui->playerFour->setVisible(false);
-    ui->plFourMoney->setVisible(false);
-
+    if(ui->playerFour->isVisible()){
+        ui->playerFour->setVisible(false);
+        ui->plFourMoney->setVisible(false);
+    }
+    else if(ui->playerThree->isVisible()){
+        ui->playerThree->setVisible(false);
+        ui->plThreeMoney->setVisible(false);
+    }
+    else if(ui->playerTwo->isVisible()){
+        ui->playerTwo->setVisible(false);
+        ui->plTwoMoney->setVisible(false);
+    }
+    else if(ui->playerOne->isVisible()){
+        ui->playerOne->setVisible(false);
+        ui->plOneMoney->setVisible(false);
+    }
 }
