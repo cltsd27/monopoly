@@ -25,6 +25,8 @@ protected:
 private slots:
     void on_removePl_clicked();
 
+    void on_addPlayer_clicked();
+
 private:
     Ui::Widget *ui;
     QGraphicsScene *scene;

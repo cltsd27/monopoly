@@ -42,3 +42,23 @@ void Widget::on_removePl_clicked()
         ui->plOneMoney->setVisible(false);
     }
 }
+
+void Widget::on_addPlayer_clicked()
+{
+    if(!ui->playerOne->isVisible()){
+           ui->playerOne->setVisible(true);
+           ui->plOneMoney->setVisible(true);
+       }
+    else if(!ui->playerTwo->isVisible()){
+        ui->playerTwo->setVisible(true);
+        ui->plTwoMoney->setVisible(true);
+    }
+    else if(!ui->playerThree->isVisible()){
+        ui->playerThree->setVisible(true);
+        ui->plThreeMoney->setVisible(true);
+    }
+    else if(!ui->playerFour->isVisible()){
+        ui->playerFour->setVisible(true);
+        ui->plFourMoney->setVisible(true);
+    }
+}
