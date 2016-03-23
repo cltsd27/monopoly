@@ -39,7 +39,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 1&lt;/p&gt;&lt;p&gt;Money:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 1&lt;/p&gt;&lt;p&gt;Guaps:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="playerTwo">
@@ -52,7 +52,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 2&lt;/p&gt;&lt;p&gt;Money:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 2&lt;/p&gt;&lt;p&gt;Guaps:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="playerThree">
@@ -65,7 +65,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 3&lt;/p&gt;&lt;p&gt;Money:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 3&lt;/p&gt;&lt;p&gt;Guaps:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="playerFour">
@@ -78,7 +78,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 4&lt;/p&gt;&lt;p&gt;Money:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 4&lt;/p&gt;&lt;p&gt;Guaps:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="plOneMoney">
@@ -131,19 +131,6 @@
    </property>
    <property name="text">
     <string>1500</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="removePl">
-   <property name="geometry">
-    <rect>
-     <x>850</x>
-     <y>480</y>
-     <width>131</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Remove Player</string>
    </property>
   </widget>
   <widget class="QPushButton" name="addMoneyButton">
@@ -218,22 +205,6 @@
     <number>999999</number>
    </property>
   </widget>
-  <widget class="QPushButton" name="addPlayer">
-   <property name="enabled">
-    <bool>false</bool>
-   </property>
-   <property name="geometry">
-    <rect>
-     <x>990</x>
-     <y>480</y>
-     <width>131</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Add Player</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="plFiveMoney">
    <property name="geometry">
     <rect>
@@ -257,7 +228,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 5&lt;/p&gt;&lt;p&gt;Money:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 5&lt;/p&gt;&lt;p&gt;Guaps:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="plSixMoney">
@@ -283,7 +254,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 6&lt;/p&gt;&lt;p&gt;Money:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Player 6&lt;/p&gt;&lt;p&gt;Guaps:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QPushButton" name="removeMoneyButton">

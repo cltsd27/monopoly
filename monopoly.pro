@@ -14,9 +14,15 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        widget.cpp
+        widget.cpp \
+    startupdialog.cpp \
+    winner.cpp
 
-HEADERS  += widget.h
+HEADERS  += widget.h \
+    startupdialog.h \
+    winner.h
 
-FORMS    += widget.ui
+FORMS    += widget.ui \
+    startupdialog.ui \
+    winner.ui
 

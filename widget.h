@@ -17,21 +17,21 @@ class Widget : public QWidget
 
 public:
     explicit Widget(QWidget *parent = 0);
+    void setPlayers(int players);
+    void setStartingGuaps(int players, int guaps);
+    int checkForWinner(int players);
     ~Widget();
 
 protected:
-    void paintEvent(QPaintEvent *);
 
 private slots:
-    void on_removePl_clicked();
-
-    void on_addPlayer_clicked();
 
     void on_addMoneyButton_clicked();
 
     void on_playerAddMoney_currentIndexChanged(int index);
 
     void on_removeMoneyButton_clicked();
+
 
 private:
     Ui::Widget *ui;
